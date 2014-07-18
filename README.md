@@ -3,11 +3,13 @@ beergames0414
 Obfuscation Part One (I) 
 Week(s) of (and after) July 17, 2014 beer games (numero 4!).
 
-Part I Due: Wednesday, July 14 at Midnight MST.
+Part I Due: Thursday, July 24 at Midnight MST.
 
 Challenge
 -----
-This challenge consists of two parts. In the first, each participant will develop two programs. The first program will encrypt/obfuscate a text tile. It will take a key (maximum of 256 bits) and a file path, the file will be encrypted with the given key.  The second program will take a key and an encrypted file (perhaps referred to as a cyphertext) and decrypt it (to a plain-text). The second part of this challenge involves cracking other participants' encryptions. It should be noted that no encryption libraries are allowed (e.g. if you can't explain how something works in terms of boolean logic you can't use it).
+This challenge consists of two parts. In the first, each participant will develop two programs. The first program will encrypt/obfuscate a text tile. It will take a key (maximum of 256 bits) and a file path.  The file will be encrypted with the given key.  The second program will take a key and an encrypted file (perhaps referred to as a cyphertext) and decrypt it (to the original plain-text). 
+
+The second part of this challenge involves cracking other participants' encryptions. Keep that in mind but don't worry about it for now. It should be noted that no encryption libraries are allowed (e.g. if you can't explain how something works in simple logic you can't use it).
 
 
 Example
@@ -27,7 +29,7 @@ It turns out this scheme is actually some bastardized version of a Caesar cypher
 
 			Non eram nescius, Brute, cum, quae summis ingeniis exquisitaque doctrina philosophi Graeco sermone tractavissent, ea Latinis litteris mandaremus, fore ut hic noster labor in varias reprehensiones incurreret. 
 
-## General Beer Games Rules (Preliminary)
+## General Beer Games Rules (still preliminary)
 
 You can use any languages/libraries/hax so long as it works on the test machine (talk to the l33t team for which are installed/adding more). Whoever completes the program is invited to a venue to drink beer. Whoever "wins" the challenge chooses the venue and gets a secret surpise gift, decided upon by the l33t team. 
 
